@@ -1,3 +1,2 @@
-Pygame development\n
-Baekjoon Algorithm with python
+### Baekjoon Algorithm with python
 
