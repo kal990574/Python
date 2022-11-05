@@ -1,2 +1,2 @@
-### Baekjoon Algorithm with python
+# with python
 
