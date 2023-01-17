@@ -3,14 +3,14 @@
 using namespace std;
 int main() {
 	string str;
-	int cnt = 0;
+	int cnt = 1;
 	getline(cin, str);
 	for (int i = 0; i < str.length(); i++) 
 	{
-		if (i == 0 || i == str.length() - 1) continue;
 		if (str[i] == ' ') cnt++;
 	}
-	cnt += 1;
+	if (str[0] == ' ') cnt--;
+	if (str[str.length() - 1] == ' ') cnt--;
 	cout << cnt;
 }
-//1001 1008 1152(fail)
+//1001 1008 1152 1157
